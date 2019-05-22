@@ -1,0 +1,56 @@
+body {
+  font-family: Helvetica;
+  background-color: #c4e1e1;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-image: url("universe-1566161_1920.jpg");
+    background-size: 1920px 855px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-image: url("universe-1566161_1920.jpg");
+    background-size: 1920px 855px;
+    display: flex;
+    margin-top: 10px;
+}
+footer > p {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+#myImage {
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+#technicalSkillsList{
+  display:inline;
+}
+#personalSkillsList{
+  display:inline;
+}
+video {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+p {
+  margin-left: 20px;
+}
+h1 {
+  margin-left: 10px;
+}
+h2 {
+  margin-left: 10px;
+}
+a:hover {
+  color: black;
+  background-color: #77bbbb;
+}
