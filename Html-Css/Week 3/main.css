@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header>img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+#menu-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    list-style-type: none;
+}
+#li-home{
+    grid-column: 1 / span 5;
+    list-style-type: none;
+}
+#menu-container{
+    background-color: #4289f4;  
+}
+#search-area-container{
+    height: 330px;
+    display: flex;
+    background-image: url("images/markthal-rotterdam-hero.jpg");
+}
+#hot-links{
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#hot-links h2{
+    margin: auto;
+}
+#hot-links ul{
+    list-style-type: none;
+}
+#hot-links ul li:before{
+    content: ">";
+    font-weight: bold;
+}
+#search{
+    position: relative;
+    left: 650px;
+    top: 30px;
+}
